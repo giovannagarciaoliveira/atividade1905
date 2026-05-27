@@ -1,0 +1,16 @@
+footer{
+  background-color: #98d8aa;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.vaso img{
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+footer p{
+  font-size: 18px;
+  font-weight: bold;
+}
