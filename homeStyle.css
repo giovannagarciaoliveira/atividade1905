@@ -1,0 +1,5 @@
+* { margin: 0; padding: 0; box-sizing: border-box; border: none; outline: none; list-style: none; text-decoration: none; }
+.hero img{
+  width: 100%;      /* diminui largura */
+height: auto;
+}
