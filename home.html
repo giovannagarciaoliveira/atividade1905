@@ -1,11 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JardimSecreto</title>
-</head>
-<body>
-    
-</body>
-</html>
+<section class="populares">
+    <h2>Populares</h2>
+
+    <div class="cards-populares">
+        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=300" alt="Planta">
+        <img src="https://images.unsplash.com/photo-1485955900006-10f4d324d411?w=300" alt="Planta">
+        <img src="https://images.unsplash.com/photo-1463936575829-25148e1db1b8?w=300" alt="Planta">
+        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=300" alt="Planta">
+
+        <img src="https://images.unsplash.com/photo-1512428813834-c702c7702b78?w=300" alt="Planta">
+        <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=300" alt="Planta">
+        <img src="https://images.unsplash.com/photo-1459156212016-c812468e2115?w=300" alt="Planta">
+        <img src="https://images.unsplash.com/photo-1463154545680-d59320fd685d?w=300" alt="Planta">
+    </div>
+
+    <div class="ver-mais">
+        <a href="#">Veja mais →</a>
+    </div>
+</section>
+
+<style>
+.populares {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.populares h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards-populares {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.cards-populares img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.ver-mais {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.ver-mais a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+</style>
